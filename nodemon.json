@@ -1,0 +1,13 @@
+{
+  "watch": [
+    "src"
+  ],
+  "ignore": [
+    "test/**/*.ts",
+    "test/**/*.spec.ts",
+    ".git",
+    "node_modules"
+  ],
+  "exec": "clear && ts-node ./src/index.ts",
+  "ext": "ts,js,json,yaml,yml"
+}
